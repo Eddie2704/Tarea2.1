@@ -9,6 +9,7 @@ void main() {
     routes: {
       '/record': (context) => RecordPage(),
       '/home': (context) => Homepage(),
+      '/login': (context) => LoginPage(),
     },
   ));
 }
